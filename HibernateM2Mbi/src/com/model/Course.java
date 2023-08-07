@@ -12,6 +12,8 @@ public class Course {
 	@Id
 	private int cid;
 	private String cname;
+	private String caddress;
+	////////////////hello kunal
 
 	@ManyToMany(cascade = CascadeType.ALL)
 	
